@@ -6,15 +6,17 @@
 - **Disciplina:** Java
 - **IDE:** IntelliJ IDEA
 - **Data:** 17/09/2026
-- **Horario:**  8:05:49,16
-- **Computador:** DESKTOP-961DL45
-- **Usuario:** prof
+- **Horario:**  8:06:35,75
 
 ## Ambiente
 
-- Java:
+- **Hostname:** DESKTOP-961DL45
+- **Usuario:** prof
+- **Diretorio:** C:\dev
 
-- Git:
+- **Java:**
+
+- **Git:**
 git version 2.50.1.windows.1
 
 ## Repositorio
@@ -29,4 +31,4 @@ Desenvolvimento realizado utilizando o IntelliJ IDEA.
 
 ---
 
-Atualizado automaticamente em 17/09/2026 as  8:05:49,16.
+Atualizado automaticamente em 17/09/2026 as  8:06:35,75.

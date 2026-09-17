@@ -23,15 +23,17 @@ echo - **Disciplina:** %DISCIPLINA%
 echo - **IDE:** %IDE%
 echo - **Data:** %date%
 echo - **Horario:** %time%
-echo - **Computador:** %COMPUTERNAME%
-echo - **Usuario:** %USERNAME%
 echo.
 echo ## Ambiente
 echo.
-echo - Java:
+echo - **Hostname:** %COMPUTERNAME%
+echo - **Usuario:** %USERNAME%
+echo - **Diretorio:** %CD%
+echo.
+echo - **Java:**
 java -version 2^>^&1
 echo.
-echo - Git:
+echo - **Git:**
 git --version
 echo.
 echo ## Repositorio
