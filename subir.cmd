@@ -77,4 +77,4 @@ echo ==========================================
 echo          PROCESSO CONCLUIDO!
 echo ==========================================
 echo.
-pause
+start "" https://github.com/Prof-Josimar/dev-sala3
