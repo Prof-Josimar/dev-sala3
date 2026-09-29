@@ -58,7 +58,6 @@ public class ArrayList2 {
         } else {
             System.out.println("Nenhum funcionário foi cadastrado.");
         }
-
         sc.close();
     }
 }
