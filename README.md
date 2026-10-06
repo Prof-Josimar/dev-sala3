@@ -5,8 +5,8 @@
 - **Professor:** Josimar Ribeiro
 - **Disciplina:** Java
 - **IDE:** IntelliJ IDEA
-- **Data:** 29/09/2026
-- **Horario:** 11:28:07,40
+- **Data:** 06/10/2026
+- **Horario:**  9:54:05,68
 
 ## Ambiente
 
@@ -31,4 +31,4 @@ Desenvolvimento realizado utilizando o IntelliJ IDEA.
 
 ---
 
-Atualizado automaticamente em 29/09/2026 as 11:28:07,40.
+Atualizado automaticamente em 06/10/2026 as  9:54:05,68.

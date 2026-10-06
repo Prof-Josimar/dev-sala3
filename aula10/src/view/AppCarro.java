@@ -6,23 +6,17 @@ public class AppCarro {
 
     public static void main(String[] args) {
 
-        Carro carro1 = new Carro();
-        carro1.setAno(1965);
-        carro1.setMarca("VW");
-        carro1.setModelo("Polo");
-        carro1.setCor("Vermelho");
-        carro1.setPlaca("KXZ9438");
-        carro1.setVelocidadeMaxima(240);
-        carro1.setLigado(false);
-        // salvei dos dados
+        Carro carro1 = new Carro(
+                1975,
+                "VW",
+                "polo",
+                "vermelho",
+                "KXZ9438"
+        );
 
-        // agora vou consultar meu carro
+        carro1.ligar();
+        carro1.ligar();
+
         System.out.println(carro1.info());
-
-
-
-
-
     }
-
 }
