@@ -10,6 +10,13 @@ public class Carro {
     private int velocidadeMaxima = 220;
     private boolean ligado = false;
 
+    // Construtor vazio
+    public Carro() {
+        this.ligado = false;
+        this.velocidadeMaxima = 220;
+    }
+
+
     public int getAno() {
         return ano;
     }
@@ -78,5 +85,27 @@ public class Carro {
                 " ligado = " + ligado +
                 '}'+"\n";
     }
+
+
+    public boolean ligar() {
+        if (this.ligado) {
+            System.out.println("Carro já está ligado. Não é possível ligar novamente.");
+        } else {
+            this.ligado = true;
+            System.out.println("O carro foi ligado.");
+        }
+        return this.ligado;
+    }
+
+    public boolean desligar() {
+        if (this.ligado) {
+            this.ligado = false;
+            System.out.println("O carro foi desligado.");
+        } else {
+            System.out.println("Carro já está desligado. Não é possível desligar novamente.");
+        }
+        return this.ligado;
+    }
+
 }
 

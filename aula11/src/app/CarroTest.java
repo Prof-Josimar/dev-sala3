@@ -21,6 +21,12 @@ public class CarroTest {
         carro2.setCor("Cinza");
         carro2.setPlaca("QWE1234");
         System.out.println(carro2);
+
+        carro1.ligar();
+        carro1.ligar();
+        carro1.desligar();
+        carro1.desligar();
+
     }
 
 
