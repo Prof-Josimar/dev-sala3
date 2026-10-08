@@ -22,10 +22,29 @@ public class CarroTest {
         carro2.setPlaca("QWE1234");
         System.out.println(carro2);
 
+        carro1.acelerar();
+
         carro1.ligar();
-        carro1.ligar();
-        carro1.desligar();
-        carro1.desligar();
+
+
+        for (int i = 0; i <30 ; i++) {
+            carro1.acelerar();
+        }
+
+        int velocidadeAtual =carro1.getVelocidadeAtual();
+
+        if(velocidadeAtual>0){
+            System.out.println("Nao é possivel desligar com esta velocidae"+velocidadeAtual);
+            System.out.println("desacelere primeiro");
+
+        }else{
+            carro1.desligar();
+        }
+
+
+
+
+
 
     }
 

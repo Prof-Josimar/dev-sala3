@@ -10,10 +10,64 @@ public class Carro {
     private int velocidadeMaxima = 220;
     private boolean ligado = false;
 
+    private int velocidadeAtual;
+
+
+    public int getVelocidadeAtual() {
+        return velocidadeAtual;
+    }
+
+
     // Construtor vazio
     public Carro() {
         this.ligado = false;
         this.velocidadeMaxima = 220;
+    }
+
+    public boolean ligar() {
+        if (this.ligado) {
+            System.out.println("Carro já está ligado. Não é possível ligar novamente.");
+        } else {
+            this.ligado = true;
+            System.out.println("O carro foi ligado.");
+        }
+        return this.ligado;
+    }
+
+    public boolean desligar() {
+        if (this.ligado) {
+            this.ligado = false;
+            System.out.println("O carro foi desligado.");
+        } else {
+            System.out.println("Carro já está desligado. Não é possível desligar novamente.");
+        }
+        return this.ligado;
+    }
+
+
+    public void acelerar() {
+
+        if (!ligado) {
+            System.out.println("⚠ Não é possível acelerar. O carro está desligado.");
+            return;
+        }
+
+        if (velocidadeAtual >= velocidadeMaxima) {
+            velocidadeAtual = velocidadeMaxima;
+            System.out.println("⚠ Velocidade máxima atingida: "
+                    + velocidadeMaxima + " km/h");
+            return;
+        }
+
+        velocidadeAtual += 10;
+
+        // Impede que ultrapasse a velocidade máxima
+        if (velocidadeAtual > velocidadeMaxima) {
+            velocidadeAtual = velocidadeMaxima;
+        }
+
+        System.out.println("🚗 Acelerando... Velocidade atual: "
+                + velocidadeAtual + " km/h");
     }
 
 
@@ -83,29 +137,9 @@ public class Carro {
                 "\nplaca = '" + placa + '\'' +
                 " velocidadeMaxima = " + velocidadeMaxima +
                 " ligado = " + ligado +
-                '}'+"\n";
+                '}' + "\n";
     }
 
-
-    public boolean ligar() {
-        if (this.ligado) {
-            System.out.println("Carro já está ligado. Não é possível ligar novamente.");
-        } else {
-            this.ligado = true;
-            System.out.println("O carro foi ligado.");
-        }
-        return this.ligado;
-    }
-
-    public boolean desligar() {
-        if (this.ligado) {
-            this.ligado = false;
-            System.out.println("O carro foi desligado.");
-        } else {
-            System.out.println("Carro já está desligado. Não é possível desligar novamente.");
-        }
-        return this.ligado;
-    }
 
 }
 
