@@ -1,4 +1,4 @@
-@echo off
+
 setlocal
 
 echo ==========================================
@@ -69,7 +69,7 @@ git branch -M main
 
 echo.
 echo [5/5] Enviando para GitHub...
-git remote set-url origin git@github.com:Prof-Josimar/dev-sala3.git
+::git remote set-url origin git@github.com:Prof-Josimar/dev-sala3.git
 git push -u origin main
 
 echo.

@@ -6,7 +6,7 @@
 - **Disciplina:** Java
 - **IDE:** IntelliJ IDEA
 - **Data:** 08/10/2026
-- **Horario:** 13:14:29,24
+- **Horario:** 13:15:47,65
 
 ## Ambiente
 
@@ -31,4 +31,4 @@ Desenvolvimento realizado utilizando o IntelliJ IDEA.
 
 ---
 
-Atualizado automaticamente em 08/10/2026 as 13:14:29,24.
+Atualizado automaticamente em 08/10/2026 as 13:15:47,65.
