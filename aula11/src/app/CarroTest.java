@@ -14,6 +14,9 @@ public class CarroTest {
         carro1.setPlaca("ABC1234");
         System.out.println(carro1);
 
+        carro1.dono ="Josimasr";
+
+
         Carro carro2 = new Carro();
         carro2.setAno(2015);
         carro2.setMarca("Peugeot");

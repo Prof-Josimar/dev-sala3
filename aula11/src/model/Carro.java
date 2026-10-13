@@ -9,14 +9,13 @@ public class Carro {
     private String placa;
     private int velocidadeMaxima = 220;
     private boolean ligado = false;
-
     private int velocidadeAtual;
+    public String dono;
 
 
     public int getVelocidadeAtual() {
         return velocidadeAtual;
     }
-
 
     // Construtor vazio
     public Carro() {
