@@ -1,6 +1,5 @@
 package model;
 
-import app.ControleTV;
 
 public class TV {
 

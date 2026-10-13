@@ -6,18 +6,18 @@
 - **Disciplina:** Java
 - **IDE:** IntelliJ IDEA
 - **Data:** 13/10/2026
-- **Horario:** 11:32:21,04
+- **Horario:** 11:53:20,35
 
 ## Ambiente
 
-- **Hostname:** DESKTOP-961DL45
-- **Usuario:** prof
-- **Diretorio:** C:\dev
+- **Hostname:** ACER-LAP
+- **Usuario:** admin
+- **Diretorio:** C:\dev\java\dev-sala3
 
 - **Java:**
 
 - **Git:**
-git version 2.50.1.windows.1
+git version 2.52.0.windows.1
 
 ## Repositorio
 
@@ -31,4 +31,4 @@ Desenvolvimento realizado utilizando o IntelliJ IDEA.
 
 ---
 
-Atualizado automaticamente em 13/10/2026 as 11:32:21,04.
+Atualizado automaticamente em 13/10/2026 as 11:53:20,35.
